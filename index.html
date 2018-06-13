@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Wonders</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row" style="border:1px solid">
+            <!-- header -->
+            <div class="col-md-2">
+                <div id="box1">Nitin M</div>
+            </div>
+            <div class="col-lg-8">
+                <h1>Crystal Collector Math Memory Game</h1>
+            </div>
+            <div class="col-md-2">
+                <div id="box2">Fun and Games</div>
+            </div>
+        </div>
+        <!-- header -->
+
+        <div class="row" id="main">
+            <div class="col-lg-3 myCols" id="instructions" style="border:.5px solid">
+                <br>
+                <h5>Instructions:</h5>
+                <p>* Your objective is to match the Number by clicking on Crystals.<br><br> * The VALUE of crystals remain hidden and each crystal adds a specific amount to your Total Score.<br><br> * WIN when your Total Score EXACTLY matches the Number.<br><br>                    * The trick is to remember each Crystal's Value as you progress.<br><br> * LOSE if your Total Score sums to more than the Number.<br><br>
+                    <b>GOOD LUCK</b>!!
+                </p>
+            </div>
+
+            <!-- MIDDLE COL START -->
+            <div class="col-lg-7 myCols" style="border:.5px solid">
+
+                <div class="row">
+                    <!-- inner row1 -->
+                    <div class="col-lg-12">
+                        <h4 id="comments"> Test Your Math AND Memory! </h4>
+                    </div>
+                </div>
+                <!-- inner row1 -->
+
+                <div class="row">
+                    <!-- inner row2 -->
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            <h4 id="myNumber"> The Number to Match is: </h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- inner row2 -->
+
+                <div class="row">
+                    <!-- inner row3 -->
+                    <div class="col-lg-12">
+                        <div class="row">
+
+                            <div class="col-lg-2"></div>
+                            <!-- spacer -->
+
+                            <div class="col-lg-2">
+                                <img id="btnRuby" src="assets/images/Ruby.png">
+                                <!--  <button type="button" class="btn btn-danger" id="btnRuby"> Ruby</button> -->
+                            </div>
+                            <div class="col-lg-2">
+                                <img id="btnEmerald" src="assets/images/emerald.jpg">
+                                <!--  <button type="button" class="btn btn-success" id="btnEmerald">Emerald</button> -->
+                            </div>
+                            <div class="col-lg-2">
+                                <img id="btnTopaz" src="assets/images/topaz.jpg">
+                                <!--  <button type="button" class="btn btn-primary" id="btnTopaz">Topaz</button> -->
+                            </div>
+                            <div class="col-lg-2">
+                                <img id="btnBeryl" src="assets/images/beryl.jpg">
+                                <!-- <button type="button" class="btn btn-warning" id="btnBeryl">Beryl</button> -->
+                            </div>
+
+                            <div class="col-lg-2"></div>
+                            <!-- spacer -->
+
+                        </div>
+                    </div>
+                </div>
+                <!-- inner row3 -->
+
+                <div class="row">
+                    <!-- inner row4 -->
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            <h4 id="myScore"> Your Total Score is: </h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- inner row4 -->
+
+                <div class="row">
+                    <!-- inner row5 -->
+                    <div class="col-lg-12">
+                        <h6>Use the scratchpad below to take some notes :)</h6>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="6">HINT: type in this convenient scratchpad and take some notes :) </textarea>
+                        </div>
+                    </div>
+                </div>
+                <!-- inner row5 -->
+
+            </div>
+            <!-- MIDDLE COL END -->
+
+
+            <div class="col-lg-2 myCols" style="border:.5px solid">
+                <br/>
+                <h6>SCORE:</h6>
+                <p id="numWins"><b>Wins: </b></p>
+                <p id="numLosses"><b>Losses: </b></p>
+            </div>
+        </div>
+        <!-- row2 -->
+
+        <div class="row">
+            <div class="col-lg-12">
+                <footer> &copy; BasilWebDev </footer>
+            </div>
+        </div>
+        <!-- end footer -->
+
+    </div>
+    <!-- end container -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
